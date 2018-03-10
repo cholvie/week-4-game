@@ -3,6 +3,7 @@ body {
 	font-weight: 100;
     color: black;
     background-color: #7BD6E8;
+    text-align: center;
 }
 
 .panel-body {
@@ -17,12 +18,9 @@ body {
     color: #960F8D;
 }
 
-
-
-/*.background {
-    background-image: url("assets/images/background.jpg");
-    background-repeat: repeat-x;
-}*/
+p {
+    text-align: center;   
+}
 
 .numberbox {
 	background-color: #960F8D;
@@ -34,6 +32,7 @@ body {
 
 #numbers {
     color: #FFFFFF;
+    text-align: center;   
 }
 
 .images {
@@ -41,15 +40,18 @@ body {
     padding-bottom: 10px;
     display: flex; 
     justify-content: center;  
-    background-color: #C872C2;   
+    background-color: #C872C2; 
+    text-align: center;     
 }
 
 #totalscore {
 	background-color: #7a7a52;
 	padding-top: 10px;
-	padding-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;   
 }
 
 #randomNumber {
-	font-size: 30px;
+    font-size: 30px;
+    text-align: center;   
 }
